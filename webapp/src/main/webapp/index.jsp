@@ -1,5 +1,37 @@
 <h1> HI, WELCOME TO MY FIRST WEBAPP CONFIGURED USING JENKINS AND DOCKER!!???</h1>
 <h2> will try more like this. thank you  .........!!!!!!!</h2>
 <h3> BOOOOOMMMMMMMMM!!!!!!!!!!!!!!!</h3>
-img src="http://localhost.8080/imageshow/sendimage/12/abc.jpg" width="100" height="100"
+<html>
+<head>
+  <title>Echoing HTML Request Parameters</title>
+</head>
+<body>
+  <h3>Choose an author:</h3>
+  <form method="get">
+    <input type="checkbox" name="author" value="Tan Ah Teck">Tan
+    <input type="checkbox" name="author" value="Mohd Ali">Ali
+    <input type="checkbox" name="author" value="Kumar">Kumar
+    <input type="submit" value="Query">
+  </form>
+ 
+  <%
+  String[] authors = request.getParameterValues("author");
+  if (authors != null) {
+  %>
+    <h3>You have selected author(s):</h3>
+    <ul>
+  <%
+      for (int i = 0; i < authors.length; ++i) {
+  %>
+        <li><%= authors[i] %></li>
+  <%
+      }
+  %>
+    </ul>
+    <a href="<%= request.getRequestURI() %>">BACK</a>
+  <%
+  }
+  %>
+</body>
+</html>
 
