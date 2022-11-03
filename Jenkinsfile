@@ -4,14 +4,6 @@ pipeline {
     tools {
         maven "maven"
     }
-
-    stages {
-        stage('git checkout') {
-            steps {
-                git 'https://github.com/sachinsmr/hello-world-valaxy.git'
-                }
-        }
-    }
     stages {
         stage('build') {
             steps {
