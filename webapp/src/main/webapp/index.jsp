@@ -1,6 +1,5 @@
-<h1> HI, WELCOME TO MY FIRST WEBAPP CONFIGURED USING JENKINS AND DOCKER!!???</h1>
+<h1> HI, WELCOME to my website!!???</h1>
 <h2> will try more like this. thank you  .........!!!!!!!</h2>
-<h3> BOOOOOMMMMMMMMM!!!!!!!!!!!!!!!</h3>
 <html>
 <head>
   <title>Echoing HTML Request Parameters</title>
@@ -8,9 +7,9 @@
 <body>
   <h3>Choose an author:</h3>
   <form method="get">
-    <input type="checkbox" name="author" value="Tan Ah Teck">Tan
-    <input type="checkbox" name="author" value="Mohd Ali">Ali
-    <input type="checkbox" name="author" value="Kumar">Kumar
+    <input type="checkbox" name="author" value="SACHIN M R">SACHIN
+    <input type="checkbox" name="author" value="ABHISHEK">ABHI
+    <input type="checkbox" name="author" value="HARISH">HARISH
     <input type="submit" value="Query">
   </form>
  
@@ -34,4 +33,4 @@
   %>
 </body>
 </html>
-
+<h3> BOOOOOMMMMMMMMM!!!!!!!!!!!!!!!</h3>
